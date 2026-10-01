@@ -4,12 +4,11 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    padding: 0 10em;
 }
 
 
 .main-section {
-    padding: 20px;
+    padding: 20px 10em;
     background-color: white;
 }
 
@@ -92,16 +91,37 @@ ul li a {
 }
 
 #torredipisa{
-    background-image: url(image3/pisa-toscana.jpg);
-    background-position: 10% 20%;
+    background-image: url(image3/pisa.jpg);
+    background-size: 990px 410px;
 }
 
 footer{
 background-color: black;
 padding: 16px;
 text-align: center;
+
 }
 
 footer a{
     color: white;
     }
+
+.sfondo-alpi{
+    background: linear-gradient(96deg, #606f13,#afb7a6)
+}
+
+.sfondo-chianti{
+    background: linear-gradient(96deg, #832a0f,#f3bd18)
+}
+
+.sfondo-elba{
+    background: linear-gradient(96deg, #0c356e,#28c0c0)
+}
+
+.sfondo-saturnia{
+     background: linear-gradient(96deg, #313923,#9ac4d1)
+}
+
+.sfondo-pisa{
+     background: linear-gradient(96deg, #281c0c,#796d01)
+}
