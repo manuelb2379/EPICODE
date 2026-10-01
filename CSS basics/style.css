@@ -1,6 +1,10 @@
 body{
     margin: 0;
-  font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 0 10em;
 }
 
 
@@ -10,12 +14,12 @@ body{
 }
 
 .image-container{
-    height: 500px;
+    height: 45vh;
     background-color: transparent;
     background-repeat: no-repeat;
     background-attachment: scroll;
+    background-size: cover;
     background-position: center;
-    background-size: contain;
 }
 
 h1{
@@ -57,6 +61,7 @@ ul{
     padding-top: 6px;
     padding-left: 22px;
     border-bottom: 1px color(#dfdfdf);
+
 }
 
 ul li a {
@@ -66,9 +71,11 @@ ul li a {
 
 #cipressi{
     background-image: url(image3/cipressi.jpg);
+    background-position: 50% 20%;
 }
 #alpiapuane{
     background-image: url(image3/alpiapuane.jpg);
+    background-position: 50% 25%;
 }
 
 #vignetitoscani{
@@ -77,6 +84,7 @@ ul li a {
 
 #termesaturnia{
     background-image: url(image3/termesaturnia.jpg);
+    background-position: 50% 5%;
 }
 
 #isolaelba{
@@ -85,6 +93,7 @@ ul li a {
 
 #torredipisa{
     background-image: url(image3/pisa-toscana.jpg);
+    background-position: 10% 20%;
 }
 
 footer{
